@@ -5,3 +5,6 @@ def secenekler():
     print("2-Kişi Sil")
     print("3-Kişileri Göster")
     print("4-Çıkış")
+
+    def kisi_ekle():
+        isim=input("İsim:")

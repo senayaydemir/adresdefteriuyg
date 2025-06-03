@@ -10,3 +10,4 @@ def secenekler():
         isim=input("İsim:")
         telefon=input("Telefon:")
         email=input("Email:")
+        adres_defteri.append({"İsim":isim,})

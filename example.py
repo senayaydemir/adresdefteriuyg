@@ -8,3 +8,5 @@ def secenekler():
 
     def kisi_ekle():
         isim=input("İsim:")
+        telefon=input("Telefon:")
+        email=input("Email:")

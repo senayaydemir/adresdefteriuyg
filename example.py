@@ -23,3 +23,6 @@ def secenekler():
 
     def kisileri_goster():
        if not adres_defteri: 
+          print("Adres defteri boş")
+        else:
+          print("\nAdres Defteri")

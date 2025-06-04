@@ -27,4 +27,4 @@ def secenekler():
         else:
           print("\nAdres Defteri")
           for i,kisi in enumerate(adres_defteri,1):
-             print()
+             print(f"{i}. İsim:{kisi['isim']},Telefon:{kisi['Telefon']},Email:{kisi['isim']}")

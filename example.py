@@ -19,3 +19,7 @@ def secenekler():
         kisi_no=int(input("Silmek istediğiniz kişinin numarasını giriniz:"))
         if 0<=kisi_no <len(adres_defteri):
          silinen_kisi=adres_defteri.pop(kisi_no)
+         print(f"{silinen_kisi['isim']}Adres defterindeen silindi")
+
+    def kisileri_goster():
+       if not adres_defteri: 

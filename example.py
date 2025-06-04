@@ -10,4 +10,5 @@ def secenekler():
         isim=input("İsim:")
         telefon=input("Telefon:")
         email=input("Email:")
-        adres_defteri.append({"İsim":isim,})
+        adres_defteri.append({"İsim":isim,"Telefon":telefon,"Email":email})
+        print(f"{isim} kişisi Adres Defterine eklendi")

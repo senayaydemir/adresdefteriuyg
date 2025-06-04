@@ -12,3 +12,8 @@ def secenekler():
         email=input("Email:")
         adres_defteri.append({"İsim":isim,"Telefon":telefon,"Email":email})
         print(f"{isim} kişisi Adres Defterine eklendi")
+
+
+
+    def kisi_sil():
+        kisi_no=int(input("Silmek istediğiniz kişinin numarasını giriniz:"))

@@ -26,3 +26,5 @@ def secenekler():
           print("Adres defteri boş")
         else:
           print("\nAdres Defteri")
+          for i,kisi in enumerate(adres_defteri,1):
+             print()
